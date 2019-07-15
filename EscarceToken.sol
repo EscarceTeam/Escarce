@@ -1,4 +1,4 @@
-pragma solidity ^0.4.8;
+pragma solidity ^0.4.11;
 
 
   
@@ -11,8 +11,8 @@ contract ESCARCE {
    
     string public constant symbol = "ESCARCE";
     string public constant name = "E-scarce";
-    uint8 public constant decimals = 0;
-    uint256 _totalSupply = 100000;    
+    uint8 public constant decimals = 8;
+    uint256 _totalSupply = 500000000000;    
     uint256 _totalBurned = 0;                            
      
    
